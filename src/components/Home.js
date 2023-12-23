@@ -18,7 +18,7 @@ export default function Home({
   useEffect(() => {
     // Check if not logged in, then navigate to login page
     if (!isLogin ) {
-      navigate("/login");
+      navigate("https://role-base-control-react.onrender.com/home");
     }
   }, [isLogin, selectedRole, navigate]);
 
